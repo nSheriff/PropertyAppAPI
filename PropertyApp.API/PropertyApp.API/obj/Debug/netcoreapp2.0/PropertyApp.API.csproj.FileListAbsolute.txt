@@ -9,3 +9,8 @@ C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\obj\Debug\netcoreapp2.
 C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\obj\Debug\netcoreapp2.0\PropertyApp.API.AssemblyInfo.cs
 C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\obj\Debug\netcoreapp2.0\PropertyApp.API.dll
 C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\obj\Debug\netcoreapp2.0\PropertyApp.API.pdb
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\bin\Debug\netcoreapp2.0\PropertyApp.API.Data.dll
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\bin\Debug\netcoreapp2.0\PropertyApp.API.Imp.dll
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\bin\Debug\netcoreapp2.0\PropertyApp.API.Data.pdb
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\bin\Debug\netcoreapp2.0\PropertyApp.API.Imp.pdb
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API\obj\Debug\netcoreapp2.0\PropertyApp.API.csproj.CopyComplete

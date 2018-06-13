@@ -10,10 +10,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PropertyApp.API.Data\PropertyApp.API.Data.csproj" />
+    <ProjectReference Include="..\PropertyApp.API.Imp\PropertyApp.API.Imp.csproj" />
   </ItemGroup>
 
 </Project>

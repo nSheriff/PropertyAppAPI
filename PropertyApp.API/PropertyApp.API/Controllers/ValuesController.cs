@@ -3,42 +3,46 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using PropertyApp.API.Data;
+using PropertyApp.API.Imp;
 
 namespace PropertyApp.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Produces("application/json")]
+    [Route("api/properties")]
     public class ValuesController : Controller
     {
-        // GET api/values
+        IPropertyService _propertyService;
+        public ValuesController(IPropertyService propertyService)
+        {
+            _propertyService = propertyService;
+        }
+       
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Property> Get()
         {
-            return new string[] { "value1", "value2" };
+           return _propertyService.GetProperties();
+            
+        }
+        
+        [HttpGet("{id:int}")]
+        public Property Get(int id)
+        {
+            return _propertyService.GetPropertById(id);
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        
+        [HttpGet("{postcode}")]
+        public IEnumerable<Property> Get(string postcode)
         {
-            return "value";
+            return _propertyService.GetPropertByPostcode(postcode);
         }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
+       
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            _propertyService.DeleteProperty(id);
         }
     }
 }

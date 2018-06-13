@@ -1,0 +1,11 @@
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\bin\Debug\netcoreapp2.0\PropertyApp.API.Data.deps.json
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\bin\Debug\netcoreapp2.0\PropertyApp.API.Data.dll
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\obj\Debug\netcoreapp2.0\PropertyApp.API.Data.csprojAssemblyReference.cache
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\obj\Debug\netcoreapp2.0\PropertyApp.API.Data.csproj.CoreCompileInputs.cache
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\obj\Debug\netcoreapp2.0\PropertyApp.API.Data.AssemblyInfoInputs.cache
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\obj\Debug\netcoreapp2.0\PropertyApp.API.Data.AssemblyInfo.cs
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\bin\Debug\netcoreapp2.0\PropertyApp.API.Data.runtimeconfig.json
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\bin\Debug\netcoreapp2.0\PropertyApp.API.Data.runtimeconfig.dev.json
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\bin\Debug\netcoreapp2.0\PropertyApp.API.Data.pdb
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\obj\Debug\netcoreapp2.0\PropertyApp.API.Data.dll
+C:\GitApps\PropertyAppAPI\PropertyApp.API\PropertyApp.API.Data\obj\Debug\netcoreapp2.0\PropertyApp.API.Data.pdb
